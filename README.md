@@ -11,7 +11,9 @@
 
 
 
+## Ekraanipilt rakendusest
 
+![Screenshot 2025-03-30 163204](https://github.com/user-attachments/assets/d0b96ea0-2e12-4765-9ed7-0ff5f2904937)
 
 
 
