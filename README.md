@@ -8,7 +8,7 @@
 4. Kirjutades "break" analoogkellal, kukuvad kellaosutid alla
 5. Kirjutades "fix" kummagi kella peal, parandab see mõlemad kellad ära
 6. "Set alarm" nupuga saab lisada kellaaja märguande jaoks ja märguande teksti
-
+7. Vajutades kella emoji'le, vahetab see tavalise ja analoogkella vahel
 
 
 ## Ekraanipilt rakendusest
