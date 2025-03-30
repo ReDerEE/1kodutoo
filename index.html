@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Screen Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="date" class="date-display"></div>
+    <div id="menu" class="menu">
+        <!-- Put the "Switch to analogue" into a menu that opens to the left
+Add 2 placeholder buttons the the menu as well -->
+<!-- Make it so that the "Placeholder 2" button is the set alarm button -->
+<!-- If pressed, it pops up a menu where you can input time in a HH:MM format and a message for the alarm to display  -->
+        <button id="toggleButton" title="Switch clock style" class="transparent-button">🕰️</button>
+        <button id="styleButton" class="transparent-button">Style</button>
+        <button id="alarmButton" class="transparent-button">Set Alarm</button>
+    </div>
+    <button id="menuButton">☰</button>
+    
+    <div id="clock" class="fade full-screen centered"></div>
+    
+    <div id="analogClock" class="hidden fade centered">
+        <div class="clock-face centered">
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+        </div>
+    </div>
+
+    <div id="alarmPopup" class="popup hidden">
+        <h2>Set Alarm</h2>
+        <input type="time" id="alarmTime">
+        <input type="text" id="alarmMessage" placeholder="Enter message">
+        <button id="setAlarm">Set</button>
+        <button id="closePopup">Cancel</button>
+    </div>
+
+    <div id="alarmNotification" class="hidden">
+        <p id="alarmText"></p>
+        <button id="dismissAlarm">Dismiss</button>
+    </div>
+
+    <div id="credits">
+        <h3>Carl-Eric Sepp</h3>
+        <a href="https://github.com/ReDerEE/1kodutoo">https://github.com/ReDerEE/1kodutoo</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
